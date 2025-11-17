@@ -5,6 +5,9 @@ from app import app, db
 from models.user import User
 from models.transfer import Transfer
 from models.exchange_rate import ExchangeRate
+from werkzeug.security import generate_password_hash
+
+SEED_PASSWORD = generate_password_hash("Password123!")
 
 def generate_phone_number(country_code):
     """Generate a realistic phone number based on country"""
@@ -71,7 +74,8 @@ def create_sample_users():
             name=user_data["name"],
             country_code=user_data["country_code"],
             email=email,
-            phone=phone
+            phone=phone,
+            password_hash=SEED_PASSWORD 
         )
         users.append(user)
     
