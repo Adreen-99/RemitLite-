@@ -16,6 +16,7 @@ from models.database import db
 from models.user import User
 from models.transfer import Transfer
 from models.exchange_rate import ExchangeRate
+from models.auth import Auth
 
 def create_app():
     """Application factory pattern"""
