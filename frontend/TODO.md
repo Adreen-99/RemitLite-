@@ -1,0 +1,3 @@
+- [x] Update frontend/src/App.jsx: Remove Router, add AuthProvider, add full routes with ProtectedRoute and PublicRoute components from Dashboard.jsx
+- [ ] Update frontend/src/pages/Dashboard.jsx: Remove the full App component, define and export only the Dashboard page component
+- [ ] Test the application by running it to ensure routes work correctly
