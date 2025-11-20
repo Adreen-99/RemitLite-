@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import SendMoneyForm from '../components/SendMoneyForm';
-import ExchangeRates from '../components/ExchangeRates';
 import TransactionHistory from '../components/TransactionHistory';
+import TransferForm from '../components/TransferForm';
+import TransferHistory from '../components/TransferHistory';
+import ExchangeRates from '../components/ExchangeRates';
 
 
 const Dashboard = ({ user }) => {

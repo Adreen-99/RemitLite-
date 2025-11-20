@@ -45,7 +45,7 @@ const SendMoneyForm = ({ user, onTransactionComplete }) => {
       setError(null);
 
       const response = await fetch(
-        `http://127.0.0.1:5000/api/convert-rate?from=${formData.fromCurrency}&to=${formData.toCurrency}&amount=1`
+        `https://remitlite-12.onrender.com/api/convert-rate?from=${formData.fromCurrency}&to=${formData.toCurrency}&amount=1`
       );
 
       if (response.ok) {

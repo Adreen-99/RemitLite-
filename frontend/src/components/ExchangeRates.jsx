@@ -23,7 +23,7 @@ const ExchangeRates = () => {
       setLoading(true);
       setError(null);
 
-      const response = await fetch('http://127.0.0.1:5000/api/exchange-rates', {
+      const response = await fetch('https://remitlite-12.onrender.com/api/exchange-rates', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

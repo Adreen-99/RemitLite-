@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
-import './styles/App.css';
+import '../src/styles/App.css';
 
 function App() {
   const [user, setUser] = useState(null);
