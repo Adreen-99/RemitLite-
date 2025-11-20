@@ -98,10 +98,9 @@ pytest
 ## Deployment
 
 ### Frontend
-Deployed to Vercel/Netlify
-
+Deployed to Vercel - https://remit-lite-d4kk1oq5u-adreen-99s-projects.vercel.app/
 ### Backend
-Deployed to Render/Railway
+Deployed to Render - https://remitlite-12.onrender.com
 
 ## License
 
